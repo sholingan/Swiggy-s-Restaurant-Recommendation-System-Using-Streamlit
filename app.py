@@ -214,11 +214,7 @@ if menu == "Insights":
     st.subheader("City Wise Restaurant Count")
     st.bar_chart(df["city"].value_counts().head(10))
 
-    st.subheader("Cost Distribution")
-    plt.figure(figsize=(8,4))
-    plt.hist(df["cost"], bins=20)
-    st.pyplot(plt.gcf())
-
+ 
     st.subheader("Average Rating by City")
     avg_city = df.groupby("city")["rating"].mean().sort_values(ascending=False).head(10)
     st.bar_chart(avg_city)

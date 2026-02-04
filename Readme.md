@@ -54,7 +54,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/yourusername/swiggy-recommender.git
+git clone https://github.com/sholingan/swiggy-recommender.git
 cd swiggy-recommender
 
 
@@ -143,6 +143,8 @@ Insights & Top 10 Restaurants
 Author
 
 Sholingan S
+
 Email: sholingan@gmail.com
+
 
 LinkedIn: linkedin.com/in/sholingans
